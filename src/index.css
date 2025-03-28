@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  :root{
+    --font-1:"Poppins", sans-serif;
+    --font-2: "Raleway", sans-serif;
+    --font-3:"Montserrat", sans-serif;
+    --font-4:"Roboto", sans-serif;
+    --font-5:"Outfit", sans-serif;
+    --font-6:"Work Sans", sans-serif;
+    --white:#ffffff;
+    --off-white:#e5e5e5;
+    --trans-white:rgba(225,225,255,0.25);
+    --trans-white1:rgba(225,255,255,0.1);
+    --blue1:#62b8f5;
+    --blue2:#4475ef;
+    --shadow:rgba(3,46,87,0.2);
+  }
+.maincard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 0px;
+   
+    padding: 20px;
+    width: 300px;
+    margin-right: 0px;
+    height: 495px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px 0px 15px ;
+}
+
+.sub-search {
+    font-family: var(--font-3);
+    font-weight: 500;
+    flex-grow: 1;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #d1d1d1;
+    background-color: #cbdeff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 10px;
+    
+}
+
+button {
+    font-family: var(--font-1);
+    font-weight: 500;
+    font-size: 14px;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #cbdeff;
+    color:black;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left:-20px;
+    border: 1px solid #d1d1d1;
+    border-left: 0px;
+}
+
+.wether {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.temp {
+    font-size: 3.1em;
+    margin: 10px 0;
+    font-weight: 400;
+    font-family: var(--font-3);
+}
+
+.city-1 {
+    font-size: 1.1em;
+    color: #222222;
+    font-family: var(--font-3);
+    font-weight: 600;
+}
+
+.details {
+    margin-top: 35px;
+    width: 300px;
+    border-top:#c5c5c5 1px solid;
+    text-align: center;
+}
+.o{
+    font-family: var(--font-3);
+    font-weight: 500;
+    position: relative;
+    top:15px;
+}
+.oo{
+    font-family: var(--font-3);
+    font-weight: 500;
+    line-height: 0px;
+    position: relative;
+    top:-15px;
+
+}
+
+.cool {
+    text-align: center;
+}
+
+.cool img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.humidity, .wind {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.container {
+    background: #e0e0e0;
+    
+    padding: 20px;
+    width: 750px;
+    height: 495px;
+}
+
+.subcontainer-1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.subcontainer-1 h2 {
+    margin-bottom: 5px;
+    font-family: var(--font-3);
+    font-weight: 500;
+}
+
+.subcontainer-1 h4 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.subcont-1 {
+    display: grid;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #2575fc;
+    width: 225px;
+    height: 100px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.class-1 {
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-family: var(--font-3);
+    font-weight: 500;
+    margin: -20px 0px 0px 20px;
+}
+
+.subcont-1 h3 {
+    font-size: 1.4em;
+    font-family: var(--font-3);
+    font-weight: 500;
+    margin: 10px 0px 0px 15px;
+}
+
+.data{
+    position: relative;
+    top:160px;
+    left:25px;
+}
+.data p{
+    font-size: 01.0em;
+    font-family: var(--font-3);
+    font-weight: 500;
+}
+.city{
+    font-family: var(--font-3);
+    font-weight: 500;
+}
