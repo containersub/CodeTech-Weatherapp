@@ -123,3 +123,6 @@ This is a web application that allows users to get the current weather informati
 ```
 
 Remember to replace the bracketed placeholders with the actual details of your project. Good luck with your GitHub upload!
+
+**Output:**
+![Image](https://github.com/user-attachments/assets/beaa16c4-16d7-4461-977f-52912f6271d1)
